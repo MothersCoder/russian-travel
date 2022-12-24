@@ -1,0 +1,12 @@
+.palces-place__website {
+  grid-area: place-url;
+  align-self: end;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 620px) {
+  .palces-place__website {
+    margin-bottom: 32px;
+    max-width: 288px;
+  }
+}

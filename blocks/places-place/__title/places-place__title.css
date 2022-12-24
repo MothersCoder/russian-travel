@@ -1,0 +1,27 @@
+.places-place__title {
+  grid-area: place-title;
+  margin: 0 0 48px 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 768px) {
+  .places-place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places-place__title {
+    margin-bottom: 32px;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
