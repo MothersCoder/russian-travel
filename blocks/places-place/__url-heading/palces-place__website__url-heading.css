@@ -1,34 +1,31 @@
-.palces-place__website__link {
+.palces-place__url-heading {
   grid-area: place-url;
-  margin: 0 0 0 40px;
+  margin: 0 0 12px 40px;
   padding: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-decoration: underline;
-  color: #FFFFFF;
-}
-
-.palces-place__website__link:hover {
-  opacity: 0.8;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
 }
 
 @media screen and (max-width: 1024px) {
-  .palces-place__website__link {
+  .palces-place__url-heading {
     margin-left: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .palces-place__website__link {
+  .palces-place__url-heading {
     margin-left: 28px;
+    line-height: 12px;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .palces-place__website__link {
+  .palces-place__url-heading {
     margin-left: 16px;
   }
 }
