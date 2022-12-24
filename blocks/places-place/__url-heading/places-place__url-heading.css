@@ -1,4 +1,4 @@
-.palces-place__url-heading {
+.places-place__url-heading {
   grid-area: place-url;
   margin: 0 0 12px 40px;
   padding: 0;
@@ -12,20 +12,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .palces-place__url-heading {
+  .places-place__url-heading {
     margin-left: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .palces-place__url-heading {
+  .places-place__url-heading {
     margin-left: 28px;
     line-height: 12px;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .palces-place__url-heading {
+  .places-place__url-heading {
     margin-left: 16px;
   }
 }

@@ -1,4 +1,4 @@
-.palces-place__link {
+.places-place__link {
   grid-area: place-url;
   margin: 0 0 0 40px;
   padding: 0;
@@ -11,24 +11,24 @@
   color: #FFFFFF;
 }
 
-.palces-place__link:hover {
+.places-place__link:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
-  .palces-place__link {
+  .places-place__link {
     margin-left: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .palces-place__link {
+  .places-place__link {
     margin-left: 28px;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .palces-place__link {
+  .places-place__link {
     margin-left: 16px;
   }
 }
