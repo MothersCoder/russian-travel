@@ -1,4 +1,4 @@
-.places-place__link {
+.place__link {
   grid-area: place-url;
   margin: 0 0 0 40px;
   padding: 0;
@@ -8,27 +8,28 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration: underline;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
-.places-place__link:hover {
+.place__link:hover {
   opacity: 0.8;
+  transition: 0.6s;
 }
 
 @media screen and (max-width: 1024px) {
-  .places-place__link {
+  .place__link {
     margin-left: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .places-place__link {
+  .place__link {
     margin-left: 28px;
   }
 }
 
 @media screen and (max-width: 620px) {
-  .places-place__link {
+  .place__link {
     margin-left: 16px;
   }
 }

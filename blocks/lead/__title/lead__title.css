@@ -8,8 +8,7 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  color: #FFFFFF;
-  text-rendering: optimizeLegibility;
+  color: #FFF;
   text-align: center;
 }
 
@@ -19,9 +18,9 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   .lead__title {
-    max-width: 300px;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

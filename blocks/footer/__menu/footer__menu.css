@@ -1,17 +1,17 @@
-.footer__nav {
+.footer__menu {
   margin: 92px 0 24px 0;
+  display: flex;
 }
 
-@media screen and (max-width: 768px) {
-  .footer__nav {
+@media screen and (max-width: 900px) {
+  .footer__menu {
     margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .footer__nav {
+  .footer__menu {
     margin: 64px auto 48px 16px;
-    display: flex;
     flex-direction: column;
   }
 }

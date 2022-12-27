@@ -1,14 +1,10 @@
-.header__lang {
+.header__lang-list {
   margin: 0;
   padding: 0;
-  justify-content: end;
   display: flex;
   flex-direction: row;
+  justify-content: end;
   align-items: flex-end;
   list-style-type: none;
   text-decoration: none;
-}
-
-.header__lang:last-child {
-  margin-left: 18px;
 }

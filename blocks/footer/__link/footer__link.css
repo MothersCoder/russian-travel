@@ -1,30 +1,31 @@
-.footer__nav-link {
-  margin: 0 18px 0 0;
+.footer__link {
+  margin: 0 16px 0 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none;
 }
 
-.footer__nav-link:hover {
+.footer__link:hover {
   opacity: 0.8;
+  transition: 0.6s;
 }
 
-.footer__nav-link:last-child {
+.footer__link:last-child {
   margin-right: 0;
 }
 
 @media screen and (max-width: 750px) {
-  .footer__nav-link {
+  .footer__link {
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
   }
 
-  .footer__nav-link:last-child {
-    margin-right: 0;
+  .footer__link:last-child {
+    margin-bottom: 0;
   }
 }
